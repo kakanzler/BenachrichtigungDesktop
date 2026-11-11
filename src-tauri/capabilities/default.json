@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "The card only listens for view updates; app commands need no permission.",
+  "windows": ["main"],
+  "permissions": ["core:event:default"]
+}
